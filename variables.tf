@@ -7,7 +7,7 @@ variable "db_name" {
 variable "db_user" {
   description = "Nom d'utilisateur PostgreSQL."
   type        = string
-  default     = "devops_user"
+  default     = "x"
 }
 
 variable "db_password" {
